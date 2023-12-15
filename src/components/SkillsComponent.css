@@ -1,0 +1,35 @@
+.skills-container {
+  text-align: center;
+}
+
+.skills-buttons {
+  font-size: 24px; 
+  margin-bottom: 10px; 
+  width: 1000x;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-item {
+  text-align: center;
+}
+
+progress {
+  width: 350px;
+  height:30px;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  progress {
+    width: 100%;
+  }
+}
+
+
